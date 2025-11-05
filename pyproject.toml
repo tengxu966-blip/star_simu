@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "star_simu"
+version = "0.1.0"
+description = "基于视觉的GNC闭环仿真数据传输协议实现"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"

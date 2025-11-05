@@ -1,0 +1,22 @@
+# 己方卫星轨道文件路径
+own_orbit_file = "data/Satellite1.e"
+# 目标卫星轨道文件路径
+target_orbit_file = "data/2016ho3.e"
+# 图像模拟配置文件
+# use_gaia_background: 是否使用gaia星表背景星（true/false）
+use_gaia_background = true
+# gaia_catalog_path: gaia星表文件路径（可选）
+gaia_catalog_path = "data/gaia.csv"
+# fov_deg: 视场角度
+fov_deg = 0.5
+# n_stars: 自动生成背景星数量（未用gaia星表时）
+n_stars = 50
+# 是否启用校验和（true/false）
+enable_checksum = true
+
+# 视觉结果目标IP和端口
+vision_target_ip = "192.168.29.235"
+vision_target_port = 8889
+
+# 发送视觉结果前等待秒数
+send_wait_seconds = 0

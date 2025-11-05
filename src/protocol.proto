@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package star_simu;
+
+// 卫星状态数据包
+message SatelliteState {
+    uint32 timestamp = 1;
+    double pos_x = 2;
+    double pos_y = 3;
+    double pos_z = 4;
+    double vel_x = 5;
+    double vel_y = 6;
+    double vel_z = 7;
+    float quat_x = 8;
+    float quat_y = 9;
+    float quat_z = 10;
+    float quat_w = 11;
+    float omega_x = 12;
+    float omega_y = 13;
+    float omega_z = 14;
+}
+
+// 视觉数据包
+message VisionData {
+    uint32 timestamp = 1;
+    int32 u = 2;
+    int32 v = 3;
+    float confidence = 4;
+}
